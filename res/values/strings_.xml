@@ -43,7 +43,6 @@
     <string name="debug_summary">Display debug information in the logcat</string>
     <string name="delete">Delete</string>
     <string name="delete_current_confirmation">"Are you sure you want to remove and delete the data of '%s'?"</string>
-    <string name="delete_local">Delete torrent file</string>
     <string name="delete_local_checkbox">Remove local torrent file</string>
     <string name="delete_selected_confirmation">Are you sure you want to remove and delete the data of the selected torrents?</string>
     <string name="developer_options">Developer options</string>
@@ -52,6 +51,7 @@
     <string name="done">Done</string>
     <string name="duplicate_torrent">This torrent is already in the list.</string>
     <string name="empty_string" />
+    <string name="error_deleting_torrent_file">Unable to delete torrent file</string>
     <string name="error_reading_torrent_file">Error while reading the torrent file</string>
     <string name="error_title">Error!</string>
     <string name="filter">Filter</string>
@@ -193,7 +193,6 @@
     <string name="sort_visibility">Sorting options visibility</string>
     <string name="sorting_option">Sorting option</string>
     <string name="speed_format">&lt;b>Down&lt;/b>: %1$s/s%2$s&lt;br/>&lt;b>Up&lt;/b>: %3$s/s%4$s</string>
-    <string name="start_paused">Start paused</string>
     <string name="start_paused_checkbox">Start paused</string>
     <string name="status">Status</string>
     <string name="status_bar_format">↓ %1$s%2$s, ↑ %3$s%4$s, ⊙ %5$s</string>
@@ -277,7 +276,6 @@
     <string name="torrent_state">State:</string>
     <string name="torrent_trackers">Trackers</string>
     <string name="torrent_uploaded">Uploaded:</string>
-    <string name="torrents">Torrents</string>
     <string name="tracker_add">Add tracker</string>
     <string name="tracker_announce_error">Announce error: %1$s%2$s</string>
     <string name="tracker_announce_never">Last announce: N/A</string>
@@ -311,9 +309,7 @@
     <string name="user_interface_header">User interface</string>
     <string name="verify">Verify local data</string>
     <string name="want_file">Download</string>
-    <string name="delete_local_summary">Delete local torrent file when adding</string>
     <string name="remove_tracker">Remove</string>
     <string name="show_status_bar_summary">Status bar below the torrent list</string>
-    <string name="start_paused_summary">Start paused torrents</string>
     <string name="update_active_torrents_summary">Update active torrents only</string>
 </resources>
