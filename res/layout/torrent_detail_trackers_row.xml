@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/torrent_detail_trackers_row" android:background="?android:selectableItemBackground" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/torrent_detail_trackers_row_info" android:background="@drawable/list_activated_holo_light" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0" android:shrinkColumns="0">
+        <TableRow style="@style/TrackerInfoRow">
+            <TextView android:textStyle="bold" android:id="@id/tracker_url" android:fontFamily="sans-serif-condensed" style="@style/CardTextColumn" />
+            <TextView android:textStyle="bold" android:gravity="right" android:id="@id/tracker_tier" android:fontFamily="sans-serif-condensed" style="@style/CardTextColumn" />
+        </TableRow>
+        <TableRow style="@style/TrackerInfoRow">
+            <TextView android:id="@id/tracker_announce" style="@style/CardTextColumn" />
+            <TextView android:gravity="right" android:id="@id/tracker_seeders" style="@style/CardTextColumn" />
+        </TableRow>
+        <TableRow style="@style/TrackerInfoRow">
+            <TextView android:id="@id/tracker_scrape" style="@style/CardTextColumn" />
+            <TextView android:gravity="right" android:id="@id/tracker_leechers" style="@style/CardTextColumn" />
+        </TableRow>
+    </TableLayout>
+    <FrameLayout android:id="@id/torrent_detail_tracker_buttons" android:background="@color/detail_background_edge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@color/detail_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+            <Button android:id="@id/torrent_detail_tracker_remove" android:text="@string/remove_tracker" style="@style/TrackerButton" />
+            <View style="@style/TrackerButtonSeparator" />
+            <Button android:id="@id/torrent_detail_tracker_replace" android:text="@string/replace" style="@style/TrackerButton" />
+            <View style="@style/TrackerButtonSeparator" />
+            <Button android:id="@id/torrent_detail_tracker_copy" android:text="@string/copy" style="@style/TrackerButton" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
