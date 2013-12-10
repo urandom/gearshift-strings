@@ -43,7 +43,6 @@
     <string name="debug_summary">Отображать отладочную информацию в logcat</string>
     <string name="delete">Delete</string>
     <string name="delete_current_confirmation">"Вы действительно хотите удалить данные '%s'?"</string>
-    <string name="delete_local">Удаление торрента</string>
     <string name="delete_local_checkbox">Удалить .torrent после добавления</string>
     <string name="delete_selected_confirmation">Вы действительно хотите удалить торрент и все данные, связанные с ним?</string>
     <string name="developer_options">Опции разработчика</string>
@@ -52,6 +51,7 @@
     <string name="done">Готово</string>
     <string name="duplicate_torrent">Этот торрент уже есть в списке.</string>
     <string name="empty_string" />
+    <string name="error_deleting_torrent_file">Ошибка удаления торрент-файла</string>
     <string name="error_reading_torrent_file">Ошибка чтения торрент-файла</string>
     <string name="error_title">Ошибка!</string>
     <string name="filter">Что будем искать?</string>
@@ -193,7 +193,6 @@
     <string name="sort_visibility">Использовать следующие методы сортировки в настройке фильтров</string>
     <string name="sorting_option">Настройка сортировки</string>
     <string name="speed_format">&lt;b>Загрузка&lt;/b>: %1$s/s%2$s&lt;br/>&lt;b>Отдача&lt;/b>: %3$s/s%4$s</string>
-    <string name="start_paused">Запуск торрентов</string>
     <string name="start_paused_checkbox">Не запускать торрент</string>
     <string name="status">Состояние</string>
     <string name="status_bar_format">↓ %1$s%2$s, ↑ %3$s%4$s, ⊙ %5$s</string>
@@ -277,7 +276,6 @@
     <string name="torrent_state">Состояние:</string>
     <string name="torrent_trackers">Трекеры</string>
     <string name="torrent_uploaded">Отдано:</string>
-    <string name="torrents">Торренты</string>
     <string name="tracker_add">Добавить трекер</string>
     <string name="tracker_announce_error">Ошибка announce-запроса: %1$s%2$s</string>
     <string name="tracker_announce_never">Последний announce-запрос: N/A</string>
@@ -311,9 +309,7 @@
     <string name="user_interface_header">Интерфейс пользователя</string>
     <string name="verify">Проверить локальные данные</string>
     <string name="want_file">Загрузка</string>
-    <string name="delete_local_summary">Удалять .torrent файл после успешного добавления</string>
     <string name="remove_tracker">Удалить</string>
     <string name="show_status_bar_summary">Отображать строку состояния под списком торрентов</string>
-    <string name="start_paused_summary">Запускать торренты, стоящие на паузе</string>
     <string name="update_active_torrents_summary">Обновлять только активные торренты</string>
 </resources>
