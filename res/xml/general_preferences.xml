@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
@@ -5,10 +6,6 @@
         <CheckBoxPreference android:title="@string/update_active_torrents" android:key="update_active_torrents" android:summary="@string/update_active_torrents_summary" android:defaultValue="false" />
         <ListPreference android:entries="@array/pref_full_update_entries" android:title="@string/full_update" android:key="full_update" android:dependency="update_active_torrents" android:defaultValue="2" android:dialogTitle="@string/update_interval_dialog_title" android:entryValues="@array/pref_full_update_values" />
         <ListPreference android:entries="@array/pref_update_interval_entries" android:title="@string/update_interval" android:key="update_interval" android:defaultValue="1" android:dialogTitle="@string/update_interval_dialog_title" android:entryValues="@array/pref_update_interval_values" />
-    </PreferenceCategory>
-    <PreferenceCategory android:title="@string/torrents">
-        <CheckBoxPreference android:title="@string/start_paused" android:key="start_paused" android:summary="@string/start_paused_summary" android:defaultValue="false" />
-        <CheckBoxPreference android:title="@string/delete_local" android:key="delete_local" android:summary="@string/delete_local_summary" android:defaultValue="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/user_interface_header">
         <CheckBoxPreference android:title="@string/show_status_bar" android:key="show_status" android:summary="@string/show_status_bar_summary" android:defaultValue="false" />
