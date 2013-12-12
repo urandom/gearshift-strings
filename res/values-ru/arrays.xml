@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_base_sort_method_entries">
+        <item>Имя</item>
+        <item>Размер</item>
+        <item>Состояние</item>
+        <item>Скорость загрузки</item>
+        <item>Скорость отдачи</item>
+        <item>Дата добавления</item>
+        <item>Значимость</item>
+        <item>Коэффициент</item>
+        <item>Активность</item>
+        <item>Расположение</item>
+        <item>Количество пиров</item>
+        <item>Очередность</item>
+    </string-array>
+    <string-array name="pref_base_sort_order_entries">
+        <item>Сдвинуть вверх</item>
+        <item>Сдвинуть вниз</item>
+        <item>Сдвинуть в начало</item>
+        <item>Сдвинуть в конец</item>
+    </string-array>
+    <string-array name="pref_con_retries_entries">
+        <item>Один раз</item>
+        <item>Дважды</item>
+        <item>3 раза</item>
+        <item>5 раз</item>
+        <item>10 раз</item>
+        <item>15 раз</item>
+    </string-array>
+    <string-array name="pref_full_update_entries">
+        <item>2 обновления</item>
+        <item>3 обновления</item>
+        <item>5 обновлений</item>
+        <item>10 обновлений</item>
+        <item>30 обновлений</item>
+        <item>60 обновлений</item>
+        <item>100 обновлений</item>
+    </string-array>
+    <string-array name="pref_update_interval_entries">
+        <item>Каждую секунду</item>
+        <item>2 секунды</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>30 секунд</item>
+        <item>Каждую минуту</item>
+        <item>2 минуты</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="session_settings_encryption">
+        <item>Всегда требуется</item>
+        <item>Включено</item>
+        <item>Отключено</item>
+    </string-array>
+    <string-array name="session_settings_encryption_values">
+        <item>всегда требуется</item>
+        <item>включено</item>
+        <item>отключено</item>
+    </string-array>
+    <string-array name="torrent_priority">
+        <item>Низкий</item>
+        <item>Нормальный</item>
+        <item>Высокий</item>
+    </string-array>
+    <string-array name="torrent_priority_values">
+        <item>низкий</item>
+        <item>нормальный</item>
+        <item>высокий</item>
+    </string-array>
+    <string-array name="torrent_seed_ratio_mode">
+        <item>Использовать глобальные настройки</item>
+        <item>Остановить раздачу, если коэфф. равен</item>
+        <item>Раздавать независимо от коэффициента</item>
+    </string-array>
+</resources>
