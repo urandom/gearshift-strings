@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_contact">"If you find any bugs, please write a post in the &lt;a href=https://plus.google.com/communities/115768021623513120266>Gear Shift G+ community&lt;/a>, filed under bugs. Doing so will also show other people whether the bug has been reported already. Be sure to turn on the 'Debug' options under 'General Settings', and include the logcat related to the app."</string>
     <string name="about_description">Gear Shift is a Transmission remote client, created to provide a great experience when dealing with all aspects of torrent management.</string>
+    <string name="about_contact">If you find any bugs, please write a post in the <![CDATA[<a href="%1$s">Gear Shift G+ community</a>]]>, filed under bugs. Doing so will also show other people whether the bug has been reported already. Be sure to turn on the \'Debug\' options under \'General Settings\', and include the logcat related to the app.</string>
+    <string name="about_donation">This app is provided for free, without any annoying ads. If you find it useful, consider <![CDATA[<a href="%1$s">sending a beer or two this way</a>]]>.</string>
     <string name="about_item">О программе</string>
     <string name="about_name">Gear Shift</string>
     <string name="access_denied_empty_list">&lt;h2>&lt;font color=#cc0000>Доступ запрещен!&lt;/font>&lt;/h2>Неверные данные учетной записи, или ваш IP-адрес не занесен в белый список.</string>
@@ -59,7 +60,7 @@
     <string name="free_space_format">&lt;b>Места на диске&lt;/b>: %1$s</string>
     <string name="full_update">Полное обновление</string>
     <string name="full_update_summary_format">После каждых %1$d обновлений активных торрентов</string>
-    <string name="generic_http_empty_list">&lt;h2>&lt;font color=#cc0000>Ошибка HTTP!&lt;/font>&lt;/h2>Возможно сервер ожидает подключение через SSL.</string>
+    <string name="generic_http_empty_list">&lt;h2>&lt;font color=#cc0000>Ошибка HTTP!&lt;/font>&lt;/h2>HTTP Status code: \'%1$s\'. Возможно сервер ожидает подключение через SSL.</string>
     <string name="header_label_filters">Фильтры</string>
     <string name="header_label_general_preferences">Основные настройки</string>
     <string name="header_label_profiles">Профили</string>
