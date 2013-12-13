@@ -6,12 +6,12 @@
     
     <string name="empty_string"></string>
     <string name="done">Готово</string>
-    <string name="delete">Delete</string>
+    <string name="delete">Удалить</string>
     <string name="remove">Удалить торрент</string>
     <string name="remove_data">Удалить торрент и файлы</string>
-    <string name="resume">Resume</string>
-    <string name="pause">Pause</string>
-    <string name="stop">Stop</string>
+    <string name="resume">Возобновить</string>
+    <string name="pause">Приостановить</string>
+    <string name="stop">Остановить</string>
     <string name="move">Переместить</string>
     <string name="verify">Проверить локальные данные</string>
     <string name="reannounce">Получить больше пиров</string>
@@ -139,7 +139,7 @@
     <string name="status_state_seeding">&lt;b&gt;Отдача&lt;/b&gt;</string>
     <string name="status_state_download_waiting">&lt;b&gt;Ожидает загрузки&lt;/b&gt;</string>
     <string name="status_state_seed_waiting">&lt;b&gt;Ожидает отдачи&lt;/b&gt;</string>
-    <string name="status_state_paused"><![CDATA[<b>На паузе</b>]]></string>
+    <string name="status_state_paused"><![CDATA[<b>Приостановлен</b>]]></string>
     <string name="status_state_finished"><![CDATA[<b>Завершен</b>]]></string>
     <string name="status_state_check_waiting">&lt;b&gt;Ожидает проверки&lt;/b&gt;</string>
     <string name="status_state_checking">&lt;b&gt;Проверяется&lt;/b&gt; (%1$s%% tested)</string>
@@ -171,7 +171,7 @@
     <string name="none">None</string>
     <string name="unknown">Неизвестно</string>
 
-    <string name="status_paused">На паузе</string>
+    <string name="status_paused">Приостановлен</string>
     <string name="status_finished">Завершен</string>
     <string name="status_check_waiting">Ожидает проверки</string>
     <string name="status_checking">Проверка</string>
@@ -223,7 +223,7 @@
     <string name="menu_filters_all">Все</string>
     <string name="menu_filters_downloading">Загружается</string>
     <string name="menu_filters_seeding">Раздается</string>
-    <string name="menu_filters_paused">На паузе</string>
+    <string name="menu_filters_paused">Приостановленные</string>
     <string name="menu_filters_complete">Завершенные</string>
     <string name="menu_filters_incomplete">Незавершенные</string>
     <string name="menu_filters_active">Активные</string>
