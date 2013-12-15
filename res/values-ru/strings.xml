@@ -54,7 +54,7 @@
     <string name="torrent_comment">Комментарий:</string>
     
     <string name="torrent_bandwidth">Настройки скорости</string>
-    <string name="torrent_global_limits">Пренебрегать глобальными лимитами скорости</string>
+    <string name="torrent_global_limits">Пренебрегать глобальными настройками скорости</string>
     <string name="torrent_priority">Приоритет:</string>
     <string name="torrent_queue_position">Очередность:</string>
     <string name="torrent_limit_download">Лимит скорости загрузки</string>
@@ -444,7 +444,7 @@
 
     <string-array name="torrent_seed_ratio_mode">
         <item>Использовать глобальные настройки</item>
-        <item>Остановить раздачу, если коэфф. равен</item>
+        <item>Остановить раздачу, если коэффициент равен</item>
         <item>Раздавать независимо от коэффициента</item>
     </string-array>
 
