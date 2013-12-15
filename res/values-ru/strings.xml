@@ -265,7 +265,7 @@
     
     <string name="sorting_option">Настройка сортировки</string>
         
-    <string name="show_all_filter_summary">If hidden, clicking on a selected filter will unselect it</string>
+    <string name="show_all_filter_summary">Установите флажок, чтобы нужный фильтр отображался в панели.</string>
         
     <string name="developer_options">Опции разработчика</string>
         
