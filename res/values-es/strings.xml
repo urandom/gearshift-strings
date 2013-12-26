@@ -112,19 +112,14 @@
     <string name="create_profile_in_settings">Crea un nuevo perfil en las preferencias</string>
     
     <string name="no_profiles_empty_list">&lt;h2&gt;Aún no se ha creado ningún perfil.&lt;/h2&gt;Debes crear una visitando &lt;i&gt;Preferencias&lt;/i&gt;.</string>
-    <string name="connecting_empty_list"><![CDATA[<h2><font color="#666666">Connecting</font></h2>]]></string>
     <string name="no_torrents_empty_list">&lt;h2&gt;Estás conectado!&lt;/h2&gt;El daemon no tiene ningún torrent de momento.</string>
     <string name="no_filtered_torrents_empty_list">Ningún torrent coincide con este filtro</string>
     <string name="no_connectivity_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;Necesitas estar conectado a internet!&lt;/font&gt;&lt;/h2&gt;</string>
     <string name="access_denied_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;Acceso denegado!&lt;/font&gt;&lt;/h2&gt;Tus credenciales pueden ser incorrectos o tu ip no estar incluida en la lista blanca del daemon.</string>
     <string name="no_json_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;Respuesta inesperada!&lt;/font&gt;&lt;/h2&gt;Por favor comprueba que la dirección del RPC sea correcta.</string>
     <string name="no_connection_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;No se pudo conectar!&lt;/font&gt;&lt;/h2&gt;Por favor comprueba si la dirección del servidor y el puerto son correctos.</string>
-    <string name="generic_http_empty_list"><![CDATA[<h2><font color="#cc0000>HTTP client error!</font></h2>The HTTP status code is '%1$s'. The server might be expecting an SSL connection.]]></string>
     <string name="thread_error_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;Internal error!&lt;/font&gt;&lt;/h2&gt;</string>
     <string name="response_error_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;Transmission daemon error!&lt;/font&gt;&lt;/h2&gt;Falló una petición al daemon. Mira el logcat para mas información</string>
-    <string name="timeout_empty_list"><![CDATA[<h2><font color="#cc0000>Connection timeout!</font></h2>]]></string>
-    <string name="out_of_memory_empty_list"><![CDATA[<h2><font color="#cc0000>Out of memory!</font></h2>]]></string>
-    <string name="json_parse_empty_list"><![CDATA[<h2><font color="#cc0000>Unexpected server response!</font></h2>]]>Esta no es la respuesta que se esperaba.</string>
     
     <string name="traffic_downloading_format">%1$s of %2$s (%3$s)%4$s</string>
     <string name="traffic_downloading_percentage_format">%1$s%%</string>
@@ -140,8 +135,6 @@
     <string name="status_state_seeding">&lt;b&gt;Subiendo&lt;/b&gt;</string>
     <string name="status_state_download_waiting">&lt;b&gt;Encolado para descargar&lt;/b&gt;</string>
     <string name="status_state_seed_waiting">&lt;b&gt;Encolado para subir&lt;/b&gt;</string>
-    <string name="status_state_paused"><![CDATA[<b>Paused</b>]]></string>
-    <string name="status_state_finished"><![CDATA[<b>Finished</b>]]></string>
     <string name="status_state_check_waiting">&lt;b&gt;Esperando comprobación&lt;/b&gt;</string>
     <string name="status_state_checking">&lt;b&gt;Comprobando&lt;/b&gt; (%1$s%% tested)</string>
     <string name="status_more_downloading_format"> desde %1$d de %2$d pares conectados - &lt;i&gt;%3$s&lt;/i&gt;</string>
@@ -202,7 +195,6 @@
     <string name="torrent_origin_format">Creado en %1$s</string>
     <string name="torrent_origin_creator_format">Creado por %1$s on %2$s</string>
 
-    <string name="torrent_detail_file_format"><![CDATA[%1$s<br /><small>%2$s of %3$s - %4$s</small>]]></string>
     
     <string name="about_item">About</string>
     <string name="about_name">Gear Shift</string>
@@ -383,14 +375,6 @@
     <string name="session_settings_download">Descarga (KiB/s)</string>
         
     <string name="port_test_testing">Probando …</string>
-        
-    <string name="port_test_error"><![CDATA[<font color="#CC0000">Error</font>]]></string>
-        
-    <string name="port_test_closed"><![CDATA[<font color="#E73939">Closed</font>]]></string>
-        
-    <string name="port_test_open"><![CDATA[<font color="#7CAF00">Open</font>]]></string>
-
-    <string name="blocklist_update_error"><![CDATA[<font color="#CC0000">Error</font>]]></string>
 
     <string name="blocklist_updating">Actualizando</string>
 
@@ -406,17 +390,10 @@
     <string name="import_session_directories">Importar carpetas de la sesión</string>
 
     <string name="tracker_unknown_host">Host desconocido</string>
-    <string name="tracker_tier"><![CDATA[Tier %1$d]]></string>
-    <string name="tracker_announce_success"><![CDATA[Último anuncio: %1$s (got %2$s)]]></string>
     <string name="tracker_announce_never">Último anuncio: N/A</string>
-    <string name="tracker_announce_error"><![CDATA[Error de anuncio: %1$s%2$s]]></string>
 
-    <string name="tracker_scrape_success"><![CDATA[Última actualización: %1$s]]></string>
     <string name="tracker_scrape_never">Última actualización: N/A</string>
-    <string name="tracker_scrape_error"><![CDATA[Error de actualización: %1$s%2$s]]></string>
 
-    <string name="tracker_seeders"><![CDATA[Semillas: %1$d]]></string>
-    <string name="tracker_leechers"><![CDATA[Leechers: %1$d]]></string>
     <string name="tracker_add">Añadir tracker</string>
     <string name="tracker_announce_url">URL de anuncio del tracker</string>
     <string name="tracker_url_copy">La URL de anuncio del tracker se ha copiado al portapapeles</string>
@@ -431,8 +408,6 @@
         <item quantity="other">%1$d pares</item>
     </plurals>
 
-    <string name="status_bar_format"><![CDATA[↓ %1$s%2$s, ↑ %3$s%4$s, ⊙ %5$s]]></string>
-    <string name="status_bar_limit_format"><![CDATA[ (<i>%1$s</i>)]]></string>
     <string name="user_interface_header">Interfaz de usuario</string>
     <string name="show_status_bar">Barra de estado bajo la lista de torrents</string>
     <string name="error_deleting_torrent_file">No se pudo borrar el torrent</string>
