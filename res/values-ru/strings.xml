@@ -4,7 +4,6 @@
     <string name="app_name">Gear Shift</string>
     <string name="title_torrent_detail">Торрент-инфо</string>
     
-    <string name="empty_string"></string>
     <string name="done">Готово</string>
     <string name="delete">Удалить</string>
     <string name="remove">Удалить торрент</string>
@@ -28,6 +27,7 @@
     <string name="alt_speed_label_on">Включить альтерн. скорости</string>
     <string name="alt_speed_label_off">Выключить альтерн. скорости</string>
     <string name="alt_speed">Альтернативные скорости</string>
+    <string name="add_torrent">Добавить торрент</string>
     <string name="settings">Настройки</string>
 
     <string name="torrent_overview">Обзор</string>
@@ -124,6 +124,7 @@
     <string name="response_error_empty_list">&lt;h2&gt;&lt;font color="#cc0000"&gt;Ошибка демона Transmission!&lt;/font&gt;&lt;/h2&gt;Запрос к демону не выполнен. Для более подробной информации смотрите лог.</string>
     <string name="timeout_empty_list"><![CDATA[<h2><font color="#cc0000>Время ожидания соединения истекло!</font></h2>]]></string>
     <string name="out_of_memory_empty_list"><![CDATA[<h2><font color="#cc0000>Недостаточно памяти!</font></h2>]]></string>
+    <string name="json_parse_empty_list"><![CDATA[<h2><font color="#cc0000>Неожиданный ответ сервера!</font></h2>]]>Это не ответ, который мы ожидали.</string>
     
     <string name="traffic_downloading_format">%1$s из %2$s (%3$s)%4$s</string>
     <string name="traffic_downloading_percentage_format">%1$s%%</string>
@@ -188,8 +189,10 @@
     <string name="move_checkbox">Переместить данные торрента из текущего места в новое</string>
     <string name="set_location">Задать расположение</string>
     
-    <string name="add_magnet">Новая magnet-ссылка</string>
-    <string name="add_torrent">Новый торрент</string>
+    <string name="browse">Просмотр</string>
+    <string name="invalid_magnet_link">Неверная magnet-ссылка</string>
+    <string name="add_new_magnet">Новая magnet-ссылка</string>
+    <string name="add_new_torrent">Новый торрент</string>
     <string name="start_paused_checkbox">Не запускать торрент</string>
     <string name="delete_local_checkbox">Удалить .torrent после добавления</string>
     
@@ -383,8 +386,6 @@
         
     <string name="port_test_testing">Тестирование …</string>
         
-    <string name="port_test_error"><![CDATA[<font color="#CC0000">Ошибка</font>]]></string>
-        
     <string name="port_test_closed"><![CDATA[<font color="#E73939">Закрыт</font>]]></string>
         
     <string name="port_test_open"><![CDATA[<font color="#7CAF00">Открыт</font>]]></string>
@@ -435,6 +436,11 @@
     <string name="user_interface_header">Интерфейс пользователя</string>
     <string name="show_status_bar">Отображать строку состояния под списком торрентов</string>
     <string name="error_deleting_torrent_file">Ошибка удаления торрент-файла</string>
+    <string name="hint_download_directory">Папка для загрузки</string>
+    <string name="spinner_custom_directory">Альтернативная папка &#8230;</string>
+    <string name="error_removing_profile">При удалении профиля произошла ошибка!</string>
+    <string name="session_settings_enable_idle_seeding_limit">Enable idle seeding limit</string>
+    <string name="session_settings_idle_seeding_limit">Остановить после простоя в течение (минут)</string>
 
     <string-array name="torrent_priority">
         <item>Низкий</item>
