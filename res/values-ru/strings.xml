@@ -439,8 +439,8 @@
     <string name="hint_download_directory">Папка для загрузки</string>
     <string name="spinner_custom_directory">Альтернативная папка &#8230;</string>
     <string name="error_removing_profile">При удалении профиля произошла ошибка!</string>
-    <string name="session_settings_enable_idle_seeding_limit">Enable idle seeding limit</string>
-    <string name="session_settings_idle_seeding_limit">Остановить после простоя в течение (минут)</string>
+    <string name="session_settings_enable_idle_seeding_limit">Прекратить раздачу если не активен</string>
+    <string name="session_settings_idle_seeding_limit">Минут</string>
 
     <string-array name="torrent_priority">
         <item>Низкий</item>
