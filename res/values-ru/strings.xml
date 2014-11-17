@@ -451,7 +451,7 @@
     <string name="session_settings_idle_seeding_limit">Минут</string>
 	<string name="update_download">Загрузка</string>
     <string name="update_view">Просмотр</string>
-    <string name="update_available"><![CDATA[<h2><font color="#666666">A new version of Gear Shift is available</font><h2><small>The new version is \'%1$s\'</small>]]></string>
+    <string name="update_available"><![CDATA[<h2><font color="#666666">Доступна новая версия Gear Shift</font><h2><small>The new version is \'%1$s\'</small>]]></string>
     <string name="update_current">У вас уже установлена самая последняя версия Gear Shift</string>
     <string name="update_error"><![CDATA[<font color="#E73939">При проверке обновлений возникла ошибка</font>]]></string>
     <string name="about_updates">Проверка обновлений</string>
