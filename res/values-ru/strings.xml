@@ -266,7 +266,7 @@
 
     <string name="show_tracker_filters">Показывать фильтр по трекерам</string>
 	
-	<string name="show_untracked_filter">Показывать торренты без трекеров</string>
+    <string name="show_untracked_filter">Показывать торренты без трекеров</string>
 
     <string name="sort_visibility">Использовать следующие методы сортировки в настройке фильтров</string>
     
@@ -282,7 +282,7 @@
         
     <string name="debug_summary">Отображать отладочную информацию в logcat</string>
 	
-	<string name="auto_update_check">Проверять обновления при запуске</string>
+    <string name="auto_update_check">Проверять обновления при запуске</string>
         
     <string name="open_drawer">open drawer</string>
         
